@@ -87,7 +87,7 @@ var C = document.querySelector("canvas"), img = new Image(), c = C.getContext("2
       c.fillText(score, W / 2, cell * 1.5),
       c.font = "bold 20px Calibri, sans-serif",
       c.fillText("走れおかんちゃん", W / 2 - 150, cell * 1.5),
-      img.src = "okanchan_reverse.png",
+      img.src = "images/okanchan_reverse.png",
       c.drawImage(img, sq.x, H - sq.h - sq.y, sq.w, sq.h),
       requestAnimationFrame(render);
   };
