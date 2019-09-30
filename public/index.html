@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <title>走れおかんちゃん</title>
+    <title>走れおかんちゃん v1.1</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="index.css">
     <link rel="icon" href="images/favicon.png" sizes="32x32">
     <meta content="子どもが忘れた弁当を届けに今日もおかんちゃんが走る。ただし、そこには険しい道のりが..." name="description"/>
     <meta content="おかん,オフィスおかん,OKAN" name="keywords"/>
-    <meta content="走れおかんちゃん" property="og:title"/>
+    <meta content="走れおかんちゃん v1.1" property="og:title"/>
     <meta content="article" property="og:type"/>
     <meta content="https://runner-okan.firebaseapp.com/index.html" property="og:url"/>
     <meta content="https://runner-okan.firebaseapp.com/images/okanchan_reverse.png" property="og:image"/>
     <meta content="子どもが忘れた弁当を届けに今日もおかんちゃんが走る。ただし、そこには険しい道のりが..." property="og:description"/>
-    <meta content="走れおかんちゃん" property="og:site_name"/>
+    <meta content="走れおかんちゃん v1.1" property="og:site_name"/>
 </head>
 <body bgcolor="#171717" onload="render()" onkeydown="(!event || event.keyCode == 32) && sqJump()">
-    <canvas width="554" height="360" onmousedown="sqJump()" ontouchstart="sqJump()"></canvas>
+    <canvas id="canvas" width="600" height="400" onmousedown="sqJump()" ontouchstart="sqJump()"></canvas>
 </body>
 <script type="text/javascript" src="index.js"></script>
