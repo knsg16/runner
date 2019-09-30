@@ -1,9 +1,0 @@
-canvas {
-    position: fixed;
-    height: 100%;
-    transform: translate(-8px,-8px);
-}
-
-p {
-    font-weight: bold;
-}

@@ -100,3 +100,4 @@ bgFill.addColorStop(0, "#0c48db"), bgFill.addColorStop(1, "#5785f6"), floorLine.
 img.onload = function(){
     //400x300に縮小表示
 }
+
