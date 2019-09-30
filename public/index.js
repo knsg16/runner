@@ -1,5 +1,5 @@
 var C = document.querySelector("canvas"), img = new Image(), c = C.getContext("2d"), W = C.width, H = C.height, S = 2, cell = 40,
-  stroke = 2, gravity = 0.9, rand = (min, max) => Math.round(Math.random() * (max - min)) + min, score = 0, frame = 0,
+  stroke = 2, gravity = 0.87, rand = (min, max) => Math.round(Math.random() * (max - min)) + min, score = 0, frame = 0,
   framesPerPt = 5, difficulty = 1
   , sq = {
     x: cell * 2 + 1,
